@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Header from '@/components/common/header';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
@@ -37,7 +36,6 @@ export default function AboutPage(props: AboutPageProps) {
   return (
     <div>
       <h1>About Page</h1>
-      <Header />
       Post List Page
       <ul>
         {postList.map((post: any) => (
